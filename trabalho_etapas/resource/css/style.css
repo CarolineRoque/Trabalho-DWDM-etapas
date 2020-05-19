@@ -253,3 +253,13 @@ section{
     height: 0;
     visibility: hidden;
 }
+
+.foto-cidade{
+    width: 280px;
+    height: 250px;
+    padding-bottom: 20px;
+}
+.icone_cidades {
+    width: 15px;
+}
+
