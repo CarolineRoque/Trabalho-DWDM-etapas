@@ -26,6 +26,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 .hero-text-box{
     position: absolute;
@@ -262,4 +263,34 @@ section{
 .icone_cidades {
     width: 15px;
 }
+/* Depoimentos */
 
+.section-testimonials{
+    /*background-image: url(img/burg3.jpg);*/
+    background-image: linear-gradient(rgba(0,0,00.8), rgba(0,0,0,0.8)), url(img/burg3.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    font-size: 25px;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+cite img{
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+}
