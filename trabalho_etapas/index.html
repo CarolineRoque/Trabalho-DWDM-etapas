@@ -17,17 +17,17 @@
             <div class="row">
                 <img src="resource/css/img/nome7.png" alt="hamburgueria do lenny" class="logo" id="logo-nome">
                 <ul class="main-nav">
-                    <li><a href="#">Cardápio</a></li>
-                    <li><a href="#">Cidades</a></li>
-                    <li><a href="#">Peça Online</a></li>
-                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#cidades">Cidades</a></li>
+                    <li><a href="#pedidos-online">Peça Online</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Prepare-se para conhecer o melhor <br> Conceito de Hamburgueria </h1>
-            <a class="btn btn-full" href="#">Peça Online</a>
-            <a class="btn btn-ghost" href="#">Cardápio</a>
+            <a class="btn btn-full" href="#pedidos-online">Peça Online</a>
+            <a class="btn btn-ghost" href="#cardapio">Cardápio</a>
         </div>
     </header>
 
@@ -67,7 +67,7 @@
 
     </section>
 
-    <section class="section-photos">
+    <section class="section-photos" id="cardapio">
         <ul class="imagens-showcase clearfix">
             <li>
                 <figure class="photo "> <img src="resource/img/burg7.jpg" alt="hamburguer" title="Hamburguer"/>
@@ -99,7 +99,7 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="pedidos-online">
         <div class="row">
             <h2>Esperando o que? &mdash; Bastam 3 passos</h2>
         </div>
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cidades">
         <div class="row">
             <h2>Estamos atendendo nas seguintes cidades</h2>
         </div>
@@ -219,7 +219,8 @@
         </div>
 
     </section>
-    <section class="section-testimonials">
+
+    <section class="section-testimonials" id="depoimentos">
         <div class="row">
             <h2>Melhorando o paladar das pessoas</h2>
         </div>
@@ -254,6 +255,7 @@
 
         </div>
     </section>
+
     <script>
         if ( 'serviceWorker' in navigator ) {
         navigator.serviceWorker.register('sw.js')
@@ -265,5 +267,31 @@
         });
         }
     </script>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#cidades">Cidades</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#pedidos-online">Peça Online</a></li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><img src="resource/img/facebook-square-brands.svg" class="logo-facebook" name="logo-facebook" alt=""></a></li>
+                    <li><a href="#"><img src="resource/img/instagram-brands.svg" class="logo-instagram" name="logo-instagram" alt=""></a></li>
+                    <li><a href="#"><img src="resource/img/twitter-brands.svg" class="logo-twitter" name="logo-twitter" alt=""></a></li>
+                    <li><a href="#"><img src="resource/img/google-plus-g-brands.svg" class="logo-googleplus" name="logo-googleplus" alt=""></a></li>  
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <p>Copyright &copy; 2020 - Hamburgueria do Lenny. Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
