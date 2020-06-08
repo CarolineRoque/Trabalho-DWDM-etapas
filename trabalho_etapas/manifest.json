@@ -1,0 +1,30 @@
+{
+    "name": "Saúde no Prato",
+    "short_name": "Saúde no Prato",
+    "description": "Descrição do site",
+    "start_url": "index.html",
+    "scope": ".",
+    "background_color": "#EEE",
+    "theme_color": "#4A148C",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "pt-BR",
+    "icons": [{
+    "src": "resources/icons/icon_64.png",
+    "type": "image/png",
+    "sizes": "64x64"
+    }, {
+    "src": "resources/icons/icon_128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+    }, {
+    "src": "resources/icons/iscon_256.png",
+    "type": "image/png",
+    "sizes": "256x256"
+    }, {
+    "src": "resources/icons/icon_512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+    }]
+    }

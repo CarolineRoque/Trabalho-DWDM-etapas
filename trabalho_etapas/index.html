@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="resource/css/style.css">
     <link rel="stylesheet" href="vendors/normalize (1).css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="manifest" href="manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
     <title>Hamburgueria do Lenny </title>
@@ -69,7 +70,7 @@
     <section class="section-photos">
         <ul class="imagens-showcase clearfix">
             <li>
-                <figure class="photo"> <img src="resource/img/burg7.jpg" alt="hamburguer" title="Hamburguer"/>
+                <figure class="photo "> <img src="resource/img/burg7.jpg" alt="hamburguer" title="Hamburguer"/>
                 </figure></li>
             <li>
                 <figure class="photo"> <img src="resource/img/hamburguer2.jpg"  alt="hamburguer" title="Hamburguer"/>
@@ -253,6 +254,16 @@
 
         </div>
     </section>
-
+    <script>
+        if ( 'serviceWorker' in navigator ) {
+        navigator.serviceWorker.register('sw.js')
+        .then(function() {
+        console.log("Service Worker registrado com sucesso");
+        })
+        .catch(function() {
+        console.log("Falha ao registrar o Service Worker");
+        });
+        }
+    </script>
 </body>
 </html>
