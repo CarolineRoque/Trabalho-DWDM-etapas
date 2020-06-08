@@ -256,18 +256,6 @@
         </div>
     </section>
 
-    <script>
-        if ( 'serviceWorker' in navigator ) {
-        navigator.serviceWorker.register('sw.js')
-        .then(function() {
-        console.log("Service Worker registrado com sucesso");
-        })
-        .catch(function() {
-        console.log("Falha ao registrar o Service Worker");
-        });
-        }
-    </script>
-
     <footer>
         <div class="row">
             <div class="col span-1-of-2">
@@ -293,5 +281,17 @@
             <p>Copyright &copy; 2020 - Hamburgueria do Lenny. Todos os direitos reservados</p>
         </div>
     </footer>
+
+    <script>
+        if ( 'serviceWorker' in navigator ) {
+        navigator.serviceWorker.register('sw.js')
+        .then(function() {
+        console.log("Service Worker registrado com sucesso");
+        })
+        .catch(function() {
+        console.log("Falha ao registrar o Service Worker");
+        });
+        }
+    </script>
 </body>
 </html>
