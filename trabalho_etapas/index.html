@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
     <title>Hamburgueria do Lenny </title>
+
+
 </head>
 
 <body>
@@ -281,17 +283,7 @@
             <p>Copyright &copy; 2020 - Hamburgueria do Lenny. Todos os direitos reservados</p>
         </div>
     </footer>
-
-    <script>
-        if ( 'serviceWorker' in navigator ) {
-        navigator.serviceWorker.register('sw.js')
-        .then(function() {
-        console.log("Service Worker registrado com sucesso");
-        })
-        .catch(function() {
-        console.log("Falha ao registrar o Service Worker");
-        });
-        }
-    </script>
+    
+    <script src="swRegister.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 {
-    "name": "Saúde no Prato",
-    "short_name": "Saúde no Prato",
-    "description": "Descrição do site",
+    "name": "Hamburgueria do Lenny",
+    "short_name": "Hamburgueria do Lenny",
+    "description": "Lancheria com especialidade em hamburguer",
     "start_url": "index.html",
     "scope": ".",
     "background_color": "#EEE",
@@ -11,19 +11,19 @@
     "dir": "ltr",
     "lang": "pt-BR",
     "icons": [{
-    "src": "resources/icons/icon_64.png",
-    "type": "image/png",
-    "sizes": "64x64"
+            "src": "resource/icons/icon_64.png",
+            "type": "image/png",
+            "sizes": "64x64"
     }, {
-    "src": "resources/icons/icon_128.png",
+        "src": "resource/icons/icon_128.png",
     "type": "image/png",
     "sizes": "128x128"
     }, {
-    "src": "resources/icons/iscon_256.png",
+    "src": "resource/icons/icon_256.png",
     "type": "image/png",
     "sizes": "256x256"
     }, {
-    "src": "resources/icons/icon_512.png",
+    "src": "resource/icons/icon_512.png",
     "type": "image/png",
     "sizes": "512x512"
     }]
